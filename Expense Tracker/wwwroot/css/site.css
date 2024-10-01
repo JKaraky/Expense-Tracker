@@ -126,8 +126,33 @@ btn:focus, btn:active{
     border-bottom-right-radius: 5px;
 }
 
+/*Navbar*/
+nav.navbar{
+    background-color: rgba(18, 22, 29);
+}
+
+nav.navbar i {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+nav.navbar i:hover nav.navbar img:hover{
+    cursor: pointer;
+    background-color: #48545f14;
+    transform: scale(1.05) translate(0px);
+}
+
+/*Profile Pic*/
+img.profile-pic{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
 /*Radio Button Group*/
-.e-btn-group.custom-rbt-group{
+.e-btn-group.custom-rbt-group {
     width: 100%;
 }
 
@@ -135,21 +160,21 @@ btn:focus, btn:active{
     width: 50%;
 }
 
-.custom-rbt-group label.e-btn{
+.custom-rbt-group label.e-btn {
     box-shadow: none !important;
     border: 1px solid #fff;
     background-color: rgb(34 43 51);
     color: #fff;
 }
 
-.e-btn-group.custom-rbt-group input:checked + label.e-btn{
+.e-btn-group.custom-rbt-group input:checked + label.e-btn {
     background-color: #fff;
     color: #212b36;
     border: 1px solid #fff;
 }
 
 /*SideBar*/
-#sidebar{
+#sidebar {
     background-color: #12161d;
     border-right: 1px dashed rgba(75, 82, 85, 0.24);
     padding: 10px 20px;
